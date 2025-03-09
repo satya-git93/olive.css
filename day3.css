@@ -1,0 +1,103 @@
+.navbar{
+    display: flex;
+    justify-content:space-around ;
+}
+
+#navbar-h1{
+    color: rgb(166, 166, 55);
+    box-shadow: 5px 5px 8px black;
+
+}
+#navbar-links{
+    display: flex;
+    align-items:center ;
+    column-gap:20px;
+    padding:20px;
+   font-weight: bold;
+}
+#navbar-links > a{
+    text-decoration: none;
+    font-size: 20xp;
+    color: rgb(166, 166, 55);
+}
+#contact{
+    padding: 5px 20px;
+    background-color: rgb(166, 166, 55) ;
+    font-size:15px ;
+    color:white;
+    border-radius: 120px;
+    box-shadow: 5px 5px 8px black;
+
+
+}
+
+.landingPage{
+    display: flex;
+    justify-content: center;
+}
+
+.landingPageText{
+    width: 20%;
+    font-size: 180%;
+   margin-top: 5%;
+   margin-left: 12%;
+}
+
+
+.landingPage> img{
+    width: 30%; 
+   margin-left: 15%;
+}
+.landingPageText>h1{
+    font-size:100 px ;
+   width: 700px;
+
+}
+.landingPageText>p{
+    font-size: 1.2em;
+    width: 600px;
+}
+.landingPageBtns > p{
+    display: flex;
+   padding: 2%;
+    background-color: rgb(166, 166, 55)  ;
+    font-size:15px ;
+    color:white;
+    border-radius: 20px;
+    font-size:20px;
+   justify-content: center;
+   margin: 10%;
+   box-shadow: 5px 5px 8px black;
+
+}
+.landingPage1>h1{
+    
+    text-align: center;
+    padding: 20px 500px;
+    font-size: 3.1em;
+}
+.landingPage1>p{
+    text-align: center;
+    font-size: 2.0em;
+    padding: 20px 500px;
+}
+.thatAbout>h1{
+    text-align: center;
+    padding: 20px 500px;
+    font-size: 3.1em;
+
+
+}
+.thatAbout>p{
+    text-align: center;
+    font-size: 2.0em;
+    padding: 20px 500px;
+}
+.contact{
+    text-align: center;
+    font-size: 3.0em;
+    padding: 20px 500px;
+    height: 200px;
+    margin: 50px;
+
+}
