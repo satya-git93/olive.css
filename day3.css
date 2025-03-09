@@ -34,7 +34,7 @@
 .landingPage{
     display: flex;
     justify-content: center;
-    width:50%;
+  
 }
 
 .landingPageText{
@@ -42,7 +42,7 @@
     font-size: 180%;
    margin-top: 5%;
    margin-left: 12%;
-    width:50%
+   
 }
 
 
